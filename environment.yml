@@ -1,0 +1,7 @@
+name: myenv
+channels:
+  - anaconda
+dependencies:
+  - python=3.8
+  - anaconda::sphinx
+  - anaconda::sphinx_rtd_theme
