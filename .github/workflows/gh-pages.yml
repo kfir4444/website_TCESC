@@ -22,7 +22,7 @@ jobs:
         miniforge-variant: Mambaforge
         miniforge-version: latest
         activate-environment: myenv
-        python-version: 3.7
+        python-version: 3.8
         use-mamba: true
     - name: Compile content
       run: |
