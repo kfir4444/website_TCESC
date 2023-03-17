@@ -47,4 +47,3 @@ ifdef COMMITMESSAGE # Use the provided COMMITMESSAGE variable for noninteractive
 else # Prompt for a commit message
 	cd $(BUILDDIR)/html; git add -A .; git commit; git push official gh-pages
 endif
-Footer
