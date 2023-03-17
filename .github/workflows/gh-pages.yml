@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - *
+      - main
 
 jobs:
   deploy:
@@ -21,7 +21,7 @@ jobs:
         environment-file: environment.yml
         miniforge-variant: Mambaforge
         miniforge-version: latest
-        activate-environment: arc_env
+        activate-environment: myenv
         python-version: 3.7
         use-mamba: true
     - name: Compile content
